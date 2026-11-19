@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "RideRequest",
+  "namespace": "com.ride.streaming",
+  "fields": [
+    {"name": "event_id", "type": "string"},
+    {"name": "event_type", "type": "string"},
+    {"name": "event_time", "type": "string"},
+    {"name": "ride_id", "type": "string"},
+    {"name": "rider_id", "type": "string"},
+    {"name": "pickup_latitude", "type": "double"},
+    {"name": "pickup_longitude", "type": "double"},
+    {"name": "pickup_zone", "type": "string"},
+    {"name": "destination_zone", "type": "string"}
+  ]
+}

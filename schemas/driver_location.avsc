@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "DriverLocation",
+  "namespace": "com.ride.streaming",
+  "fields": [
+    {"name": "event_id", "type": "string"},
+    {"name": "event_type", "type": "string"},
+    {"name": "event_time", "type": "string"},
+    {"name": "driver_id", "type": "string"},
+    {"name": "latitude", "type": "double"},
+    {"name": "longitude", "type": "double"},
+    {"name": "zone_id", "type": "string"},
+    {"name": "is_available", "type": "boolean"}
+  ]
+}
